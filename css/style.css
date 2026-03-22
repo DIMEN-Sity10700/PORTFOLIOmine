@@ -1,0 +1,81 @@
+  html{
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+    
+
+  .btn-yellow {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+  }
+
+  .btn-yellow:hover {
+    background-color: #e0a800;
+  }
+
+  .highlight {
+    color: #ffc107;
+  }
+  .headerpt{
+    background:#ffc107;
+    position: sticky;
+    top: 0;
+    z-index: 33;
+  }
+  .bgprimary{
+    background:#ffc107;
+  }
+  .imgsetting{
+    padding: 20px 30px;
+    
+  }
+  section{
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  .borderclass{
+    border-radius: 20px;
+  }
+  .contact-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.contact-btn i {
+  width: 60px;
+  height: 60px;
+  background: black;
+  color: #ffc107;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+.contact-btn:hover i {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+.contact-btn span {
+  font-size: 14px;
+}
+.customCard{
+  width: 100%;
+  background: transparent;
+}
